@@ -8,7 +8,6 @@ import { InputComponent } from "./components/input/input.component";
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports: [ItemComponent, InputComponent]
 })
 export class AppComponent implements OnInit {
   title = 'app-lista-de-compras';
