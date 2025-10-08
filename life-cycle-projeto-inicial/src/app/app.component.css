@@ -5,14 +5,14 @@
 }
 
 .container {
-  max-width: 328px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
 .lista {
   background: white;
   padding: 1rem;
-  width: 328px;
+  width: 500px;
 }
 
 .lista h4 {
@@ -21,6 +21,7 @@
   border-style: none none dashed none;
   font-family: 'Mansalva', sans-serif;
   color: #4574E3;
+  font-size: 1.5rem;
 }
 
 .content {
@@ -36,7 +37,7 @@
 }
 
 small {
-  font-size: .5rem;
+  font-size: 0.5rem;
 }
 
 .checkbox {
