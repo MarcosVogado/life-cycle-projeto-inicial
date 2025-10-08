@@ -29,5 +29,9 @@ export class ItemComponent implements OnInit, OnChanges {
   editarItem(){
     this.emitindoItemParaEditar.emit(this.item);
   }
+  
+  feito(){
+    console.log('Feito foi chamado')
+  }
 
 }
